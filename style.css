@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ol,ul{
+    list-style-type: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+td{
+    text-align: center;
+}
+.score{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 900;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+}
+.upgrades,.cookie{
+    padding-top: 100px;
+}
+@media screen and (max-width:1024px) {
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+}
